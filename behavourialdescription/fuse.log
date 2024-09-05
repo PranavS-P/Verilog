@@ -1,0 +1,12 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/verilooooooooong/01fe21bec096/behavourialdescription/fulladder_isim_beh.exe -prj E:/verilooooooooong/01fe21bec096/behavourialdescription/fulladder_beh.prj work.fulladder work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/verilooooooooong/01fe21bec096/behavourialdescription/behavourialdescription.v" into library work
+Analyzing Verilog file "E:/verilooooooooong/01fe21bec096/behavourialdescription/fulladder.v" into library work
+WARNING:HDLCompiler:687 - "E:/verilooooooooong/01fe21bec096/behavourialdescription/fulladder.v" Line 25: Illegal redeclaration of module <fulladder>.
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+ERROR:HDLCompiler:506 - "E:/verilooooooooong/01fe21bec096/behavourialdescription/fulladder.v" Line 37: Illegal recursive design instantiation, instance name uut
+ERROR:Simulator:778 - Static elaboration of top level Verilog design unit(s) in library work failed

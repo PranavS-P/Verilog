@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/verilooooooooong/01fe21bec096/behavourialdescription/fulladder_isim_beh.exe" -prj "E:/verilooooooooong/01fe21bec096/behavourialdescription/fulladder_beh.prj" "work.fulladder" "work.glbl" 

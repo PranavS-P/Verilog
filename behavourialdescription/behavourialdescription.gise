@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="behavourialdescription.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="fulladder.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="fulladder.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fulladder_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1683541560" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1683541560">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1683541560" xil_pn:in_ck="-5454291674885127567" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1683541560">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="behavourialdescription.v"/>
+      <outfile xil_pn:name="fulladder.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1683541560" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1662158064916977590" xil_pn:start_ts="1683541560">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1683541560" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3176301991959204872" xil_pn:start_ts="1683541560">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1683541560" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="7051452182444156280" xil_pn:start_ts="1683541560">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1683541560" xil_pn:in_ck="-5454291674885127567" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1683541560">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="behavourialdescription.v"/>
+      <outfile xil_pn:name="fulladder.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1683541562" xil_pn:in_ck="-5454291674885127567" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4665777265296485677" xil_pn:start_ts="1683541560">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>
